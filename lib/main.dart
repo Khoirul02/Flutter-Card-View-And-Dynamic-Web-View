@@ -1,13 +1,13 @@
 // ignore_for_file: prefer_const_constructors_in_immutables
-
 import 'package:flutter/material.dart';
+import 'package:web_view_flutter_app/splashscreen.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:webview_flutter/webview_flutter.dart';
 
 void main(){
   runApp(MaterialApp(
     title: "Laporan",
-    home : Home(),
+    home : SplashScreen(),
   ));
 }
 
