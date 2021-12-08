@@ -19,9 +19,9 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   List<Container> listMenu = [];
   var lap=[
-    {"menu": "Laporan Harian", "gambar": "day.png", "link": "https://cv-khoirulhuda.firebaseapp.com/"},
-    {"menu": "Laporan Bulanan", "gambar": "month.png", "link": "https://www.linkedin.com/in/khoirul-huda-595a05185/"},
-    {"menu": "Laporan Pengguna", "gambar": "user.png", "link": "https://github.com/Khoirul02/"},
+    {"menu": "Laporan Harian", "gambar": "day.png", "link": "https://tbmurahrejeki.com/owner/dashboard"},
+    {"menu": "Laporan Bulanan", "gambar": "month.png", "link": "https://tbmurahrejeki.com/owner/laporan"},
+    {"menu": "Laporan Pengguna", "gambar": "user.png", "link": "https://tbmurahrejeki.com/owner/user"},
   ];
 
   _buatlist()async {
